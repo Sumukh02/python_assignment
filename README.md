@@ -23,16 +23,20 @@ Matplotlib.<br>
 1. Clone the repository:
 <br>
 git clone <repository-url>
+
 <br>
 cd csv-analysis-webapp
 
 <br>
 2. Create a virtual environment:
 <br>
+
 python -m venv venv
 
 <br>
+
 3. Activate the virtual environment:
+
 <br>
 
 On Windows
