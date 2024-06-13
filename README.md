@@ -18,40 +18,43 @@ Django (>= 3.2),
 Pandas,
 Matplotlib.<br>
 
-Installation Steps
+* Installation Steps
 
-Clone the repository:
+1. Clone the repository:
 <br>
 git clone <repository-url>
 <br>
 cd csv-analysis-webapp
 
 <br>
-Create a virtual environment:
+2. Create a virtual environment:
 <br>
 python -m venv venv
 
 <br>
-Activate the virtual environment:
+3. Activate the virtual environment:
 <br>
+
 On Windows
 source venv/bin/activate
 <br>
-Install dependencies:<br>
+
+4. Install dependencies:<br>
 pip install -r requirements.txt
 
-Set up environment variables:<br>
+5. Set up environment variables:<br>
+
 Create a .env file in the root directory of your project and add the following:<br>
 TEMPORARY_DIR=<path-to-temporary-directory><br>
 Replace <path-to-temporary-directory> with the absolute path to a directory where temporary files can be stored during file uploads.<br>
 
-Apply migrations:<br>
+6. Apply migrations:<br>
 python manage.py migrate
 
 <br>
-Run the development server:
+7. Run the development server:
 
 python manage.py runserver<br>
 
-Access the application:
+8. Access the application:
 Open your web browser and go to http://localhost:8000 to access the CSV file upload form.
