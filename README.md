@@ -1,6 +1,6 @@
 # python_assignment
 Django-based web application that allows users to upload CSV files, performs data analysis using pandas and numpy, and displays the results and visualizations on the web interface.<br>
-This Django web application allows users to upload CSV files containing numerical data. Upon upload, the application calculates summary statistics (including median, mean, standard deviation, and quartiles) for each numerical column and generates histograms for visualization.<br>
+This Django web application allows users to upload CSV files containing numerical data. Upon upload, the application calculates summary statistics (including median, mean, standard deviation) for each numerical column and generates histograms for visualization.<br>
 
 Features<br>
 1.Upload CSV File: Users can upload CSV files containing numerical data.<br>
@@ -61,4 +61,4 @@ python manage.py migrate
 python manage.py runserver<br>
 
 8. Access the application:
-Open your web browser and go to http://localhost:8000 to access the CSV file upload form.
+Open the web browser and go to http://localhost:8000 to access the CSV file upload form.
